@@ -1,0 +1,617 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Demo\\DemoMicroService\\src\\Common.Logging\\Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Common.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectName": "Catalog.Api",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Demo\\DemoMicroService\\src\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Common.Logging\\Common.Logging.csproj"
+              },
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj"
+              },
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj"
+              },
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.Queries\\Catalog.Service.Queries.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.Queries\\Catalog.Service.Queries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[3.0.9, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Common\\Catalog.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Common\\Catalog.Common.csproj",
+        "projectName": "Catalog.Common",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Common\\Catalog.Common.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Domian\\Catalog.Domian.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Domian\\Catalog.Domian.csproj",
+        "projectName": "Catalog.Domian",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Domian\\Catalog.Domian.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Domian\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj",
+        "projectName": "Catalog.Persistence.Database",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Domian\\Catalog.Domian.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Domian\\Catalog.Domian.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj",
+        "projectName": "Catalog.Service.EventHandlers",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.EventHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Common\\Catalog.Common.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Common\\Catalog.Common.csproj"
+              },
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.Queries\\Catalog.Service.Queries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.Queries\\Catalog.Service.Queries.csproj",
+        "projectName": "Catalog.Service.Queries",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.Queries\\Catalog.Service.Queries.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Service.Queries\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj"
+              },
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Mapping\\Service.Common.Mapping.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Mapping\\Service.Common.Mapping.csproj"
+              },
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Paging\\Service.Common.Paging.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Paging\\Service.Common.Paging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Collection\\Service.Common.Collection.csproj",
+        "projectName": "Service.Common.Collection",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Collection\\Service.Common.Collection.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Collection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Mapping\\Service.Common.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Mapping\\Service.Common.Mapping.csproj",
+        "projectName": "Service.Common.Mapping",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Mapping\\Service.Common.Mapping.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Paging\\Service.Common.Paging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Paging\\Service.Common.Paging.csproj",
+        "projectName": "Service.Common.Paging",
+        "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Paging\\Service.Common.Paging.csproj",
+        "packagesPath": "C:\\Users\\aaaguirreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Paging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aaaguirreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://appsdev.cotemar.com.mx/NugetServer/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+                "projectPath": "C:\\Demo\\DemoMicroService\\src\\Service\\Service.Common.Collection\\Service.Common.Collection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

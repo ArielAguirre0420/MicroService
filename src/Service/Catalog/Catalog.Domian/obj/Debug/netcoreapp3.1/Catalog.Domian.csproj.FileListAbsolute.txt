@@ -1,0 +1,9 @@
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\bin\Debug\netcoreapp3.1\Catalog.Domian.deps.json
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\bin\Debug\netcoreapp3.1\Catalog.Domian.dll
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\bin\Debug\netcoreapp3.1\Catalog.Domian.pdb
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\obj\Debug\netcoreapp3.1\Catalog.Domian.csprojAssemblyReference.cache
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\obj\Debug\netcoreapp3.1\Catalog.Domian.AssemblyInfoInputs.cache
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\obj\Debug\netcoreapp3.1\Catalog.Domian.AssemblyInfo.cs
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\obj\Debug\netcoreapp3.1\Catalog.Domian.csproj.CoreCompileInputs.cache
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\obj\Debug\netcoreapp3.1\Catalog.Domian.dll
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Domian\obj\Debug\netcoreapp3.1\Catalog.Domian.pdb

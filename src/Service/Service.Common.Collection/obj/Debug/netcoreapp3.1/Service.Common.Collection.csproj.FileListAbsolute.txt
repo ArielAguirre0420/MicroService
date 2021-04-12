@@ -1,0 +1,9 @@
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\bin\Debug\netcoreapp3.1\Service.Common.Collection.deps.json
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\bin\Debug\netcoreapp3.1\Service.Common.Collection.dll
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\bin\Debug\netcoreapp3.1\Service.Common.Collection.pdb
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\obj\Debug\netcoreapp3.1\Service.Common.Collection.csprojAssemblyReference.cache
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\obj\Debug\netcoreapp3.1\Service.Common.Collection.AssemblyInfoInputs.cache
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\obj\Debug\netcoreapp3.1\Service.Common.Collection.AssemblyInfo.cs
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\obj\Debug\netcoreapp3.1\Service.Common.Collection.csproj.CoreCompileInputs.cache
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\obj\Debug\netcoreapp3.1\Service.Common.Collection.dll
+C:\Demo\DemoMicroService\src\Service\Service.Common.Collection\obj\Debug\netcoreapp3.1\Service.Common.Collection.pdb

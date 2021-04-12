@@ -1,0 +1,16 @@
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.deps.json
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.dll
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.pdb
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Common.dll
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Domian.dll
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Persistence.Database.dll
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Common.pdb
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Persistence.Database.pdb
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\bin\Debug\netcoreapp3.1\Catalog.Domian.pdb
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\obj\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.csprojAssemblyReference.cache
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\obj\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.AssemblyInfoInputs.cache
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\obj\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.AssemblyInfo.cs
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\obj\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.csproj.CoreCompileInputs.cache
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\obj\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.csproj.CopyComplete
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\obj\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.dll
+C:\Demo\DemoMicroService\src\Service\Catalog\Catalog.Service.EventHandlers\obj\Debug\netcoreapp3.1\Catalog.Service.EventHandlers.pdb
